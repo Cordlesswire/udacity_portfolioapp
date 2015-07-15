@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#0277bd">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#08ffffff">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:onClick="burtQoute"
+            android:layout_alignParentTop="true"
+            android:src="@mipmap/ic_profile_pic"
+            android:id="@+id/app_img_profilepic" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_toRightOf="@id/app_img_profilepic"
+            android:src="@drawable/forkthis"
+            android:id="@+id/app_img_forkme" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/app_img_forkme"
+            android:onClick="forkRepoBitbucket"
+            android:src="@mipmap/ic_bitbucket"
+            android:id="@+id/app_btn_bitbucket"
+            android:background="#00ffffff" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/app_btn_bitbucket"
+            android:onClick="forkRepoGithub"
+            android:src="@mipmap/ic_github"
+            android:id="@+id/app_btn_github"
+            android:background="#00ffffff" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_title"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#e1f5fe"
+        android:layout_marginTop="20dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:text="@string/app_btn_spotify"
+                android:onClick="launchAppDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/app_btn_spotifyapp"
+                android:background="#2196f3"
+                android:layout_marginTop="5dp"
+                android:textColor="#e1f5fe" />
+
+            <Button
+                android:text="@string/app_btn_scores"
+                android:onClick="launchAppDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/app_btn_scoresapp"
+                android:background="#2196f3"
+                android:layout_marginTop="5dp"
+                android:textColor="#e1f5fe" />
+
+            <Button
+                android:text="@string/app_btn_libraryapp"
+                android:onClick="launchAppDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/app_btn_libapp"
+                android:background="#2196f3"
+                android:layout_marginTop="5dp"
+                android:textColor="#e1f5fe" />
+
+            <Button
+                android:text="@string/app_btn_builditbigger"
+                android:onClick="launchAppDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/app_btn_biggerapp"
+                android:background="#2196f3"
+                android:layout_marginTop="5dp"
+                android:textColor="#e1f5fe" />
+
+            <Button
+                android:text="@string/app_btn_xyzreader"
+                android:onClick="launchAppDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/app_btn_xyzapp"
+                android:background="#2196f3"
+                android:layout_marginTop="5dp"
+                android:textColor="#e1f5fe" />
+
+            <Button
+                android:text="@string/app_btn_capstone"
+                android:onClick="launchAppDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/app_btn_scoresapp"
+                android:background="#e91e63"
+                android:layout_below="@+id/app_btn_capstone"
+                android:layout_marginTop="5dp"
+                android:textColor="#e1f5fe" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

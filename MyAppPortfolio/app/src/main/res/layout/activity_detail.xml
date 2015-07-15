@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.werkncode.android.myappportfolio.DetailActivity"
+    android:background="#0277bd">
+
+    <!-- app name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="name"
+        android:id="@+id/app_detail_name"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#e1f5fe" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#08ffffff">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_screenshot_placeholder"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_screenshot_placeholder"/>
+
+    </LinearLayout>
+
+    <!-- app description, will be updated as course progresses -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="descr"
+        android:id="@+id/app_detail_descr"
+        android:layout_marginTop="35dp"
+        android:textColor="#e1f5fe" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch App"
+        android:layout_marginTop="35dp"
+        android:id="@+id/app_btn_launchapp"
+        android:background="#e91e63"
+        android:textColor="#e1f5fe" />
+
+</LinearLayout>

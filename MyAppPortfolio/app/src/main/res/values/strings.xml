@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- actionbar -->
+    <string name="app_action_email">email</string>
+    <string name="app_action_website">werkn.github.io</string>
+    <string name="app_name">Burt Reynolds</string>
+
+    <!-- main view -->
+    <string name="app_title">Android Portfolio</string>
+
+    <!-- button labels -->
+    <string name="app_btn_spotify">Spotify Streamer</string>
+    <string name="app_btn_scores">Scores App</string>
+    <string name="app_btn_libraryapp">Library App</string>
+    <string name="app_btn_builditbigger">Built It Bigger</string>
+    <string name="app_btn_xyzreader">XYZ Reader</string>
+    <string name="app_btn_capstone">Capstone: My Own App</string>
+    <string name="app_detail_name">App Description</string>
+
+</resources>

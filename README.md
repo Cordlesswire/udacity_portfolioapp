@@ -11,9 +11,9 @@ The major components to change:
 
 ####Screenshots
 
-<img src="screenshots/screen1.png" style="width: 100px;" />
-<img src="screenshots/screen3.png" style="width: 100px;" />
-<img src="screenshots/screen4.png" style="width: 100px;" />
-<img src="screenshots/app_icon.png" style="width: 100px;" />
+<img src="screenshots/screen1.png" width="100" />
+<img src="screenshots/screen3.png" width="100" />
+<img src="screenshots/screen4.png" width="100" />
+<img src="screenshots/app_icon.png" width="100" />
 
 <br />
